@@ -1,0 +1,39 @@
+{
+    "name": "Test 001",
+    "version": "0.0.1",
+    "type": "module",
+    "description": "Special Corps - Dev Environment - Test 001",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon -q --ignore tests/ index.js",
+        "test": "jest -i --coverage --colors --verbose"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/HaroldPetersInskipp/Index0.git"
+    },
+    "keywords": [
+        "nodemon",
+        "babel",
+        "jest",
+        "majestic",
+        "cli",
+        "tool"
+    ],
+    "author": {
+        "name": "Harold Peters Inskipp",
+        "email": "HaroldPetersInskipp@gmail.com"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/HaroldPetersInskipp/node-red-contrib-betterplus-sftp/issues"
+    },
+    "homepage": "https://github.com/HaroldPetersInskipp/node-red-contrib-betterplus-sftp#readme",
+    "devDependencies": {
+        "@babel/core": "^7.20.5",
+        "@babel/preset-env": "^7.20.2",
+        "babel-jest": "^29.3.1",
+        "jest": "^29.3.1",
+        "nodemon": "^2.0.20"
+    }
+}
